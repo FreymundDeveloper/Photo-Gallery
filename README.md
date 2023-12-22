@@ -13,7 +13,7 @@ Some tecnologies used:
 * Ajax;
 * Node.
 
-## Running the apps
+## Running the app
 
 ```bash
 # Install dependencies
