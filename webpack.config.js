@@ -13,7 +13,7 @@ module.exports = {
         static: {
           directory: './build',
         },
-        port: 3000,
+        port: 9000,
       },
     optimization: {
         minimize: true,
