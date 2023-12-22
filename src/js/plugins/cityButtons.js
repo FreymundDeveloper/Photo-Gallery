@@ -35,10 +35,10 @@ $.fn.cityButtons = function() {
 
     const buttonAll = $('<button>').addClass(['btn', 'btn-info', 'active']).html('All');
     buttonAll.click(event => filterBtCity(null));
-    buttons.push(buttonAll)
+    buttons.push(buttonAll);
 
     const buttonGroup = $('<div>').addClass(['btn-group']);
-    buttonGroup.append(buttons)
+    buttonGroup.append(buttons);
 
     $(this).html(buttonGroup);
     return this;
