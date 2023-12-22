@@ -1,4 +1,4 @@
-const modoDev = process.env.NODE_ENV !== 'production'
+const modeDev = process.env.NODE_ENV !== 'production'
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin');
@@ -7,7 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
  
  
 module.exports = {
-    mode: modoDev ? 'development' : 'production',
+    mode: modeDev ? 'development' : 'production',
     entry: './src/index.js',
     devServer: {
         static: {
