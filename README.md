@@ -4,10 +4,11 @@ A basic photo gallery, created using legacy content.
 
 Some tecnologies used:
 
-* JavaScript(Obviously);
+* JavaScript;
 * HTML;
 * CSS;
 * SASS/SCSS;
+* Bootstrap;
 * JQuery;
 * Webpack;
 * Ajax;
